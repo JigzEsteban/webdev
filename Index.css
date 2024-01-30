@@ -1,0 +1,46 @@
+.hello {
+    display: flex;
+    align-items: center;
+    color: #ce0d0d;
+    background: rgba(255, 208, 0, 0.952)
+}
+
+.hello img {
+    margin-right: 10px;
+}
+.hello div {
+    margin: 0; /* Remove default margin */
+    }
+
+  h1, h3 {
+    margin: 0; /* Remove default margin for h1 and h6 */
+}
+
+.hi {
+    background-image: url('Logo.png');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 20px;
+    text-align: left;
+    opacity: 0.9; /* Set the opacity for the background image */
+}
+
+.hi h1 {
+    color: black; /* Text color */
+}
+
+.wide {
+    
+    text-align:center;
+    width: 150px;
+    height: 120px;
+    background: cyan;
+    margin: 50px; 
+    border: 3px solid black
+}
+
+table, th, td {
+
+    border: 1px solid black
+}

@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title> PUP HDF</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="Hello.js"></script>
+        
+    </head>
+    <body>
+        <div class="hello">
+            <img src="Logo.png" alt="Logo" width="100" height="100">
+            <div>
+            <h1> Polytechnic University of the Philippines</h1>
+            <h3> The Country's 1st PolytechnicU</h3>
+
+
+       <a href =https://www.pup.edu.ph> Click here to go to PUP Webpage</a>
+        </div>
+        </div>
+  
+       <div class="hi">
+            <h1> Health Declaration Form </h1>
+       
+        </body>
+        <p>This Health Declaration Form is required for all individuals entering school premises. 
+            Your cooperation in providing accurate and complete information is crucial for the safety and well-being of everyone.
+            Please fill up all required fields.</p>
+    
+        <form
+        name="dataform"
+        action="https://script.google.com/macros/s/AKfycbyipVub7543qHt1pPpHsEMGmr2s3R8Y-Vqp7YHrWJnUqPae0mtSWz7j0IGsabZ43-rLTw/exec"
+        onsubmit="return validateForm()"
+        method="post">
+
+            <label for="First Name">First Name: </label>
+            <input type="text" name ="First Name" id = "First Name">
+        <br>
+
+            <label for="Email">Email: </label>
+            <input type="text" name ="email" id = "Email">
+
+        <br>
+            <label for="age">Age: </label>
+            <input type="number" name ="age" id = "age" min="1" max="100" required>
+        <br>
+            <label for="Date:">Date: </label>
+            <input type="date" name ="date" id = "date"> 
+
+        <br>
+        Check your Enrolled Subjects <br>
+            <label for="webdev"> Web Development </label>
+            <input type="checkbox" name="webdev" id = "webdev">
+            <br>
+            <label for="hci"> HCI </label>
+            <input type="checkbox" name="hci" id = "hci">
+
+            <br>
+        Gender <br>
+            <label for="male"> Male </label>
+            <input type="radio" name="gender" id = "male">
+            <label for="female"> Female </label>
+            <input type="radio" name="gender" id = "female">
+
+        <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+</html>
+
